@@ -24,18 +24,3 @@ def fibonacci(n):
 	return b[n]
 
 print(fibonacci(5))
-
-
-a = list(range(0,31))
-print(a)
-b = [0,1]
-
-for i in range(2,31):
-	c = b[i-1]+b[i-2]
-	b.append(c)
-print(b)
-
-def fibonacci(n):
-	return b[n]
-
-print(fibonacci(5))
